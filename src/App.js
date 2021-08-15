@@ -1,6 +1,3 @@
-import logo from "./logo.svg";
-import "./App.css";
-
 import CovidMap from "./CovidMap";
 import { Provider, useDispatch, useSelector } from "react-redux";
 import store from "./redux/store";
