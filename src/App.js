@@ -23,7 +23,7 @@ function Header({ history }) {
     <>
       <Navbar bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand href="#home">코로나 지도</Navbar.Brand>
+          <Navbar.Brand href="/home">코로나 지도</Navbar.Brand>
           <Nav className="me-auto">
             {/* 
                 Nav.Link에서는 a 태그를 포함하기 때문에 새로고침을 막기 위해 react-router-dom에서 Link 사용
